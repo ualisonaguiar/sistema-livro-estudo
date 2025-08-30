@@ -4,3 +4,4 @@
 [submodule "rest-livro-laravel"]
 	path = rest-livro-laravel
 	url = https://github.com/ualisonaguiar/rest-livro-laravel
+	branch = main
