@@ -7,19 +7,19 @@ services:
       - 5173:5173
       - 3000:3000
     volumes:
-      - ./frontend:/usr/src/app
+      - ./front-livro-reactjs:/usr/src/app
     stdin_open: true
     tty: true
     networks:
       - curso-laravel    
 
   web-laravel:
-    build: './backend'
+    build: './rest-livro-laravel'
     container_name: web-laravel
     ports:
       - 80:80
     volumes:
-      - ./backend:/var/www/html
+      - ./rest-livro-laravel:/var/www/html
     networks:
       - curso-laravel      
     depends_on:
