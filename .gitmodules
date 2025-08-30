@@ -1,0 +1,8 @@
+[submodule "rest-livro-laravel"]
+	path = rest-livro-laravel
+	url = https://github.com/ualisonaguiar/rest-livro-laravel
+	branch = master
+[submodule "front-livro-reactjs"]
+	path = front-livro-reactjs
+	url = https://github.com/ualisonaguiar/front-livro-reactjs
+	branch = master
